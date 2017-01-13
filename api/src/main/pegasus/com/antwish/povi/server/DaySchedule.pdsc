@@ -1,0 +1,18 @@
+{
+  "type": "record",
+  "name": "DaySchedule",
+  "namespace": "com.antwish.povi.server",
+  "doc": "schedule within a day schema",
+  "fields": [
+    {
+      "name": "day",
+      "type": "Day",
+      "doc": "which day"
+    },
+    {
+      "name": "schedules",
+      "type": { "type" : "array", "items" : "string" },
+      "doc": "schedules within a day"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+apply plugin: 'java'
+
+dependencies {
+  compile project(path: ':api', configuration: 'restClient')
+}
+
+task startPoviClient(type: JavaExec) {
+  main = 'com.antwish.povi.server.RestLiPoviClient'
+  //jvmArgs = ["-Xdebug", "-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005"]
+  classpath = sourceSets.main.runtimeClasspath
+}

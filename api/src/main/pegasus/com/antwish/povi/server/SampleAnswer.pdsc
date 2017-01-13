@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "name": "SampleAnswer",
+  "namespace": "com.antwish.povi.server",
+  "doc": "Sample Answer to a given parenting tip Schema",
+  "fields": [
+    {
+      "name": "tipId",
+      "type": "ParentingTipId",
+      "doc": "The associated tip ID"
+    },
+    {
+          "name": "answerString",
+          "type": "string",
+          "doc": "detail of the sample answer"
+    },
+	{
+      "name": "contributorFirstName",
+      "type": "string",
+      "doc": "First name of the contributor of the given sample answer"
+    }
+  ]
+}

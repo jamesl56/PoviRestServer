@@ -1,0 +1,38 @@
+{
+  "type": "record",
+  "name": "VoiceComment",
+  "namespace": "com.antwish.povi.server",
+  "doc": "Represents a comment via a voice recording",
+  "fields": [
+    {
+      "name": "email",
+      "type": "string",
+      "doc": "The commentor's e-mail",
+	  "optional": false
+    },
+	{
+      "name": "childName",
+      "type": "string",
+      "doc": "The associated child's name to the comment",
+	  "optional": false
+    },
+	{
+      "name": "fileName",
+      "type": "string",
+      "doc": "fileName on the local",
+	  "optional": false
+    },
+	{
+      "name": "fileContent",
+      "type": "bytes",
+      "doc": "Real content of the voice comment",
+	  "optional": false
+    },
+	{
+      "name": "timestamp",
+      "type": "long",
+      "doc": "timestamp of the voice comment",
+	  "optional": false
+    }
+  ]
+}

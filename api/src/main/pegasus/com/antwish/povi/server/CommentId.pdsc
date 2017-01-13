@@ -1,0 +1,28 @@
+{
+  "type": "record",
+  "name": "CommentId",
+  "namespace": "com.antwish.povi.server",
+  "doc": "CommentId data schema",
+  "fields": [
+    {
+      "name": "User_id",
+      "type": "string",
+      "doc": "user id"
+    },
+    {
+      "name": "Child_Id",
+      "type": "string",
+      "doc": "child id"
+    },
+    {
+       "name": "timestamp",
+       "type": "long",
+       "doc": "timestamp of comment"
+    },
+    {
+       "name": "comment_id",
+       "type": "long",
+       "doc": "the sequence ID of a comment"
+    }
+  ]
+}

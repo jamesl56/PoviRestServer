@@ -1,0 +1,50 @@
+{
+  "type": "record",
+  "name": "User",
+  "namespace": "com.antwish.povi.server",
+  "doc": "Represents a registered user",
+  "fields": [
+    {
+      "name": "email",
+      "type": "string",
+      "doc": "The user's e-mail",
+	  "optional": false
+    },
+	{
+      "name": "hash",
+      "type": "string",
+      "doc": "The user's e-mail+password hash",
+	  "optional": false
+    },
+	{
+      "name": "name",
+      "type": "string",
+      "doc": "The user's name",
+	  "optional": false
+    },
+	{
+      "name": "phone",
+      "type": "string",
+      "doc": "The user's phone number",
+	  "optional": true
+    },
+	{
+      "name": "address",
+      "type": "string",
+      "doc": "The user's home address",
+	  "optional": true
+    },
+	{
+      "name": "gender",
+      "type": "string",
+      "doc": "The user's gender",
+	  "optional": true
+    },
+	{
+      "name": "birthdate",
+      "type": "long",
+      "doc": "The user's birthdate",
+	  "optional": true
+    }
+  ]
+}

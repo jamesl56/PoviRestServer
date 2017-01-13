@@ -1,0 +1,7 @@
+{
+  "type" : "enum",
+  "name" : "ParentingTipType",
+  "namespace" : "com.antwish.povi.server",
+  "doc" : "A type of an event",
+  "symbols" : [ "QUESTION" ]
+}

@@ -1,0 +1,26 @@
+{
+  "name" : "user",
+  "namespace" : "com.antwish.povi.server",
+  "path" : "/user",
+  "schema" : "com.antwish.povi.server.User",
+  "doc" : "generated from: com.antwish.povi.server.impl.UserResource",
+  "collection" : {
+    "identifier" : {
+      "name" : "userId",
+      "type" : "string"
+    },
+    "supports" : [ "create", "delete", "get", "update" ],
+    "methods" : [ {
+      "method" : "create"
+    }, {
+      "method" : "get"
+    }, {
+      "method" : "update"
+    }, {
+      "method" : "delete"
+    } ],
+    "entity" : {
+      "path" : "/user/{userId}"
+    }
+  }
+}

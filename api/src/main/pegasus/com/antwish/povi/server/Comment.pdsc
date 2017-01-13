@@ -1,0 +1,60 @@
+{
+  "type": "record",
+  "name": "Comment",
+  "namespace": "com.antwish.povi.server",
+  "doc": "Journal Comment Schema",
+  "fields": [
+    {
+      "name": "userId",
+      "type": "string",
+      "doc": "The user's id"
+    },
+    {
+      "name": "resourceId",
+      "type": "int",
+      "doc": "resource ID of the parenting tip"
+    },
+    {
+      "name": "tipId",
+      "type": "int",
+      "doc": "ID of the parenting tip"
+    },
+    {
+          "name": "tipString",
+          "type": "string",
+          "doc": "detail of the parenting tip"
+    },
+	{
+      "name": "timestamp",
+      "type": "long",
+      "doc": "timestamp of when the comment occurs"
+    },
+	{
+      "name": "commentText",
+      "type": "string",
+      "doc": "details of the comment"
+    },
+	{
+      "name": "localFileName",
+      "type": "string",
+      "doc": "the recorded voice comment file name on local device",
+      "optional": true
+    },
+	{
+      "name": "remoteFileName",
+      "type": "string",
+      "doc": "the recorded voice comment file name on remote storage",
+      "optional": true
+    },
+    {
+      "name": "likeStatus",
+      "type": "boolean",
+      "doc": "like status of the comment"
+    },
+    {
+      "name": "childName",
+      "type": "string",
+      "doc": "name of the child"
+    }
+  ]
+}

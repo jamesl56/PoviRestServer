@@ -1,0 +1,47 @@
+{
+  "name" : "poviActions",
+  "namespace" : "com.antwish.povi.server",
+  "path" : "/poviActions",
+  "doc" : "generated from: com.antwish.povi.server.impl.LoginResource",
+  "actionsSet" : {
+    "actions" : [ {
+      "name" : "loginEmail",
+      "parameters" : [ {
+        "name" : "email",
+        "type" : "string"
+      }, {
+        "name" : "hash",
+        "type" : "string"
+      } ],
+      "returns" : "string"
+    }, {
+      "name" : "loginFacebook",
+      "parameters" : [ {
+        "name" : "facebookToken",
+        "type" : "string"
+      } ],
+      "returns" : "string"
+    }, {
+      "name" : "logout",
+      "parameters" : [ {
+        "name" : "token",
+        "type" : "string"
+      } ],
+      "returns" : "boolean"
+    }, {
+      "name" : "resetPassword",
+      "parameters" : [ {
+        "name" : "email",
+        "type" : "string"
+      } ],
+      "returns" : "boolean"
+    }, {
+      "name" : "validateToken",
+      "parameters" : [ {
+        "name" : "token",
+        "type" : "string"
+      } ],
+      "returns" : "boolean"
+    } ]
+  }
+}

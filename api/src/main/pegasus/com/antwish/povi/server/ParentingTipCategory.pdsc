@@ -1,0 +1,7 @@
+{
+  "type" : "enum",
+  "name" : "ParentingTipCategory",
+  "namespace" : "com.antwish.povi.server",
+  "doc" : "enum of days",
+  "symbols" : [ "SELFESTEEM", "ALTRUISM", "EMOTION_RECOGNITION", "PERSPECTIVE_TAKING", "CRITICAL_THINKING", "SOCIAL_CONVENTION", "PERCEPTION_OF_OTHERS", "STORY_TELLING", "IMAGINATION_CREATIVITY"]
+}

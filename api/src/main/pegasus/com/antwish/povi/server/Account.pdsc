@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "name": "Account",
+  "namespace": "com.antwish.povi.server",
+  "doc": "Account data schema",
+  "fields": [
+    {
+      "name": "accountId",
+      "type": "long",
+      "doc": "ID of an account"
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "doc": "account holder's name"
+    },    
+    {
+      "name": "identity",
+      "type": "Identity",
+      "doc": "the associated identity of an account"
+    }
+  ]
+}

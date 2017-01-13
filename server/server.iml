@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":server" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" external.system.module.group="PoviRestServer" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/build/classes/main" />
+    <output-test url="file://$MODULE_DIR$/build/classes/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/mainGeneratedDataTemplate/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testGeneratedDataTemplate/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/mainGeneratedDataTemplate/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testGeneratedDataTemplate/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="api" exported="" />
+    <orderEntry type="library" exported="" name="Gradle: com.linkedin.pegasus:restli-server:2.2.5" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.linkedin.pegasus:restli-netty-standalone:2.2.5" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-ses:1.9.30" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-core:1.9.30" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.twilio.sdk:twilio-java-sdk:3.4.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.linkedin.pegasus:data:2.2.5" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.linkedin.pegasus:li-jersey-uri:2.2.5" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: javax.servlet:javax.servlet-api:3.0.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.slf4j:slf4j-api:1.6.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-io:commons-io:1.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.linkedin.pegasus:pegasus-common:2.2.5" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.linkedin.parseq:parseq:1.3.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.linkedin.pegasus:restli-common:2.2.5" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.linkedin.pegasus:r2:2.2.5" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.linkedin.pegasus:data-transform:2.2.5" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.linkedin.pegasus:generator:2.2.5" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: javax.mail:mail:1.4.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.4.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.linkedin.pegasus:restli-docgen:2.2.5" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-logging:commons-logging:1.1.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.httpcomponents:httpclient:4.3.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.3.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: joda-time:joda-time:2.7" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.googlecode.json-simple:json-simple:1.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.codehaus.jackson:jackson-core-asl:1.9.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.codehaus.jackson:jackson-mapper-asl:1.9.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.json:json:20070829" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.jboss.netty:netty:3.2.3.Final" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.commons:commons-compress:1.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.mina:mina-core:1.1.7" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.iq80.snappy:snappy:0.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: cglib:cglib-nodep:2.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.sun.codemodel:codemodel:2.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.slf4j:slf4j-log4j12:1.6.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: javax.activation:activation:1.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.linkedin.pegasus:restli-client:2.2.5" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.velocity:velocity:1.5" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.3.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-collections:commons-collections:3.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: oro:oro:2.0.8" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-codec:commons-codec:1.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: log4j:log4j:1.2.16" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.httpcomponents:httpcore:4.3.2" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library name="Gradle: server-data-template">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/build/libs/server-data-template.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-slf4j-impl:2.0.2" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-api:2.0.2" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: org.slf4j:slf4j-api:1.7.7" level="project" />
+    <orderEntry type="module-library" exported="" scope="RUNTIME">
+      <library name="Gradle: commons-logging-1.1.3">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/commons-logging-1.1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="RUNTIME">
+      <library name="Gradle: jackson-databind-2.3.2">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/jackson-databind-2.3.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="RUNTIME">
+      <library name="Gradle: jackson-core-2.3.2">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/jackson-core-2.3.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="RUNTIME">
+      <library name="Gradle: jackson-annotations-2.3.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/jackson-annotations-2.3.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="RUNTIME">
+      <library name="Gradle: httpclient-4.3">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/httpclient-4.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="RUNTIME">
+      <library name="Gradle: httpcore-4.3">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/httpcore-4.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="RUNTIME">
+      <library name="Gradle: joda-time-2.2">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/joda-time-2.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="RUNTIME">
+      <library name="Gradle: aws-java-sdk-ses-1.9.30">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/aws-java-sdk-ses-1.9.30.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="RUNTIME">
+      <library name="Gradle: mysql-connector-java-5.1.35-bin">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/mysql-connector-java-5.1.35-bin.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="RUNTIME">
+      <library name="Gradle: commons-codec-1.10">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/commons-codec-1.10.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: server-test-data-template">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/build/libs/server-test-data-template.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

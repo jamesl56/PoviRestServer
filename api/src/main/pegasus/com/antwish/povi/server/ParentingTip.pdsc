@@ -1,0 +1,48 @@
+{
+  "type": "record",
+  "name": "ParentingTip",
+  "namespace": "com.antwish.povi.server",
+  "doc": "ParentingTip data schema",
+  "fields": [
+    {
+      "name": "tipDetail",
+      "type": "string",
+      "doc": "details of the tip"
+    },
+    {
+      "name": "tipId",
+      "type": "ParentingTipId",
+      "doc": "Id of the parenting tip"
+    },
+    {
+      "name": "tipCategory",
+      "type": "ParentingTipCategory",
+      "doc": "category of the parenting tip"
+    },
+    {
+      "name": "tipAgeGroups",
+      "type": "int",
+      "doc": "age groups the parenting tip belongs"
+    },
+    {
+      "name": "commentCount",
+      "type": "int",
+      "doc": "number of comments on this given tip"
+    },
+    {
+      "name": "likeCount",
+      "type": "int",
+      "doc": "number of likes on this given tip"
+    },
+    {
+      "name": "sampleAnswers",
+      "type": { "type" : "array", "items" : "SampleAnswer" },
+      "doc": "sample answers to the tip question"
+    },
+    {
+      "name": "tipType",
+      "type": "ParentingTipType",
+      "doc": "type of the Parenting Tip"
+    }
+  ]
+}

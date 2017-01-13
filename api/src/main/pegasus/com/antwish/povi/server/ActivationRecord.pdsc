@@ -1,0 +1,28 @@
+{
+  "type": "record",
+  "name": "ActivationRecord",
+  "namespace": "com.antwish.povi.server",
+  "doc": "The record of activation after a user registers",
+  "fields": [
+    {
+      "name": "regType",
+      "type": "IdentityType",
+      "doc": "identity type used for registration"
+    },
+    {
+      "name": "account",
+      "type": "long",
+      "doc": "the hash of the associated account ID"    
+    },    
+    {
+      "name": "verification",
+      "type": "string",
+      "doc": "a system generated random string for verification purpose"    
+    },
+    {
+      "name": "activated",
+      "type": "boolean",
+      "doc": "whether the account is activated"
+    }   
+  ]
+}

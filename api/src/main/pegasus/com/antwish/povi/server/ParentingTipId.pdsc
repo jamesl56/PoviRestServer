@@ -1,0 +1,18 @@
+{
+  "type": "record",
+  "name": "ParentingTipId",
+  "namespace": "com.antwish.povi.server",
+  "doc": "ParentingTipId data schema",
+  "fields": [
+    {
+      "name": "tipResourceId",
+      "type": "int",
+      "doc": "resourceId of the tip it belongs to"
+    }, 
+    {
+      "name": "tipSequenceId",
+      "type": "int",
+      "doc": "sequence ID of the tip within a given resource"
+    }
+  ]
+}

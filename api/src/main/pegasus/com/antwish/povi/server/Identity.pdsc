@@ -1,0 +1,18 @@
+{
+  "type": "record",
+  "name": "Identity",
+  "namespace": "com.antwish.povi.server",
+  "doc": "Identity data schema",
+  "fields": [
+    {
+      "name": "identityStr",
+      "type": "string",
+      "doc": "a string representation of an identity, could be a phone number, an email address or a FB account"
+    },
+    {
+      "name": "identityType",
+      "type": "IdentityType",
+      "doc": "type of the identity"
+    }
+  ]
+}

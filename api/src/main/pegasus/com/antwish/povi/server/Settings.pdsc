@@ -1,0 +1,28 @@
+{
+  "type": "record",
+  "name": "Settings",
+  "namespace": "com.antwish.povi.server",
+  "doc": "POVI parents app settings schema",
+  "fields": [
+    {
+      "name": "userId",
+      "type": "long",
+      "doc": "unique identifier of a user"
+    },
+    {
+      "name": "reminderTime",
+      "type": "string",
+      "doc": "when to remind user to write journal"
+    },
+    {
+      "name": "timeZone",
+      "type": "string",
+      "doc": "what time zone the schedule is based on"
+    },
+    {
+      "name": "schedules",
+      "type": { "type" : "array", "items" : "com.antwish.povi.server.DaySchedule" },
+      "doc": "schedules on when to distribute parenting tips"
+    }
+  ]
+}

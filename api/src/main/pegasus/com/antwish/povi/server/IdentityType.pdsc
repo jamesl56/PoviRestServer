@@ -1,0 +1,8 @@
+{
+  "type" : "enum",
+  "name" : "IdentityType",
+  "namespace" : "com.antwish.povi.server",
+  "doc" : "A type of an identity",
+  "symbols" : [ "EMAIL", "PHONE", "FB" ],
+  "symbolDocs" : { "EMAIL":"An identity associated with an email address.", "PHONE":"An identity associated with a phone number", "FB":"An identity associated with a FB account"} 
+}

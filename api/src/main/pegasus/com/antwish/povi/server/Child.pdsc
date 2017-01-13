@@ -1,0 +1,44 @@
+{
+  "type": "record",
+  "name": "Child",
+  "namespace": "com.antwish.povi.server",
+  "doc": "Represents a registered user's child",
+  "fields": [
+    {
+      "name": "user_id",
+      "type": "string",
+      "doc": "The user's e-mail",
+	  "optional": false
+    },	
+	{
+      "name": "name",
+      "type": "string",
+      "doc": "The child's name",
+	  "optional": false
+    },
+	{
+      "name": "gender",
+      "type": "string",
+      "doc": "The child's gender",
+	  "optional": false
+    },
+	{
+      "name": "localImageFile",
+      "type": "string",
+      "doc": "the image file name on local device",
+      "optional": true
+    },
+	{
+      "name": "remoteImageFile",
+      "type": "string",
+      "doc": "the image file name on remote storage",
+      "optional": true
+    },
+	{
+      "name": "birthdate",
+      "type": "long",
+      "doc": "The child's birthdate",
+	  "optional": false
+    }
+  ]
+}

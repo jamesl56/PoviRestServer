@@ -1,0 +1,67 @@
+{
+  "name" : "parentingTip",
+  "namespace" : "com.antwish.povi.server",
+  "path" : "/parentingTip",
+  "schema" : "com.antwish.povi.server.ParentingTip",
+  "doc" : "generated from: com.antwish.povi.server.impl.ParentingTipResource",
+  "collection" : {
+    "identifier" : {
+      "name" : "parentingTipId",
+      "type" : "com.antwish.povi.server.ParentingTipId",
+      "params" : "com.antwish.povi.server.Account"
+    },
+    "supports" : [ "get" ],
+    "methods" : [ {
+      "method" : "get"
+    } ],
+    "actions" : [ {
+      "name" : "getRefreshTips",
+      "parameters" : [ {
+        "name" : "userId",
+        "type" : "string"
+      }, {
+        "name" : "count",
+        "type" : "int",
+        "optional" : true
+      } ],
+      "returns" : "{ \"type\" : \"array\", \"items\" : \"com.antwish.povi.server.ParentingTip\" }"
+    }, {
+      "name" : "getTip",
+      "returns" : "com.antwish.povi.server.ParentingTip"
+    }, {
+      "name" : "getTips",
+      "parameters" : [ {
+        "name" : "userId",
+        "type" : "string"
+      }, {
+        "name" : "dateStr",
+        "type" : "string"
+      }, {
+        "name" : "count",
+        "type" : "int",
+        "optional" : true
+      } ],
+      "returns" : "{ \"type\" : \"array\", \"items\" : \"com.antwish.povi.server.ParentingTip\" }"
+    }, {
+      "name" : "getTipsSelectedDay",
+      "parameters" : [ {
+        "name" : "userId",
+        "type" : "string"
+      }, {
+        "name" : "dateStr",
+        "type" : "string"
+      }, {
+        "name" : "count",
+        "type" : "int",
+        "optional" : true
+      } ],
+      "returns" : "{ \"type\" : \"array\", \"items\" : \"com.antwish.povi.server.ParentingTip\" }"
+    }, {
+      "name" : "getWebLink",
+      "returns" : "string"
+    } ],
+    "entity" : {
+      "path" : "/parentingTip/{parentingTipId}"
+    }
+  }
+}

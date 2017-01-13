@@ -1,0 +1,34 @@
+{
+  "name" : "child",
+  "namespace" : "com.antwish.povi.server",
+  "path" : "/child",
+  "schema" : "com.antwish.povi.server.Child",
+  "doc" : "generated from: com.antwish.povi.server.impl.ChildResource",
+  "collection" : {
+    "identifier" : {
+      "name" : "childId",
+      "type" : "com.antwish.povi.server.ChildId",
+      "params" : "com.antwish.povi.server.ChildId"
+    },
+    "supports" : [ "create", "delete", "get", "update" ],
+    "methods" : [ {
+      "method" : "create"
+    }, {
+      "method" : "get"
+    }, {
+      "method" : "update"
+    }, {
+      "method" : "delete"
+    } ],
+    "finders" : [ {
+      "name" : "getChildren",
+      "parameters" : [ {
+        "name" : "user_id",
+        "type" : "string"
+      } ]
+    } ],
+    "entity" : {
+      "path" : "/child/{childId}"
+    }
+  }
+}

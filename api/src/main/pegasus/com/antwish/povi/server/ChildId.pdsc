@@ -1,0 +1,18 @@
+{
+  "type": "record",
+  "name": "ChildId",
+  "namespace": "com.antwish.povi.server",
+  "doc": "ChildId data schema",
+  "fields": [
+    {
+      "name": "User_id",
+      "type": "string",
+      "doc": "user id"
+    }, 
+    {
+      "name": "Child_Id",
+      "type": "string",
+      "doc": "child id"
+    }
+  ]
+}

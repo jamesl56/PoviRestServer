@@ -1,0 +1,29 @@
+{
+  "type": "record",
+  "name": "ParentingComment",
+  "namespace": "com.antwish.povi.server",
+  "doc": "ParentingTip data schema",
+  "fields": [
+    {
+      "name": "commentDetail",
+      "type": "string",
+      "doc": "details of the comment"
+    },
+    {
+      "name": "tipId",
+      "type": "ParentingTipId",
+      "doc": "Id of the parenting tip",
+      "optional" : true
+    },  
+    {
+      "name": "timestamp",
+      "type": "long",
+      "doc": "timestamp of when the comment occurs"
+    },     
+    {
+      "name": "userId",
+      "type": "long",
+      "doc": "userId of whom commented"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "type": "record",
+  "name": "SocialPlayContext",
+  "namespace": "com.antwish.povi.server",
+  "doc": "SocialPlayContext data schema",
+  "fields": [
+    {
+      "name": "initator",
+      "type": "string",
+      "doc": "initiator of the social play",
+      "optional" : true
+    },
+    {
+      "name": "initatorId",
+      "type": "long",
+      "doc": "accountId of the initiator of the social play"
+    },    
+    {
+      "name": "participant",
+      "type": "string",
+      "doc": "the party that joins the initator's social play",
+      "optional" : true
+    }, 
+    {
+      "name": "participantId",
+      "type": "long",
+      "doc": "the accountId of the party that joins the initator's social play"
+    },        
+    {
+      "name": "theme",
+      "type": "string",
+      "doc": "theme of the social play",
+      "optional" : true
+    },
+    {
+      "name": "chatRoomId",
+      "type": "string",
+      "doc": "ID of the video chat room"
+    },
+    {
+      "name": "started",
+      "type": "boolean",
+      "doc": "whether the social play started"
+    },
+    {
+      "name": "timestamp",
+      "type": "long",
+      "doc": "timestamp on when this context is created"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "name" : "tipComment",
+  "namespace" : "com.antwish.povi.server",
+  "path" : "/tipComment",
+  "schema" : "com.antwish.povi.server.Comment",
+  "doc" : "generated from: com.antwish.povi.server.impl.CommentResource",
+  "collection" : {
+    "identifier" : {
+      "name" : "tipCommentId",
+      "type" : "com.antwish.povi.server.CommentId",
+      "params" : "com.antwish.povi.server.CommentId"
+    },
+    "supports" : [ "create", "delete", "get", "update" ],
+    "methods" : [ {
+      "method" : "create"
+    }, {
+      "method" : "get"
+    }, {
+      "method" : "update"
+    }, {
+      "method" : "delete"
+    } ],
+    "finders" : [ {
+      "name" : "getCommentsLikedPaged",
+      "parameters" : [ {
+        "name" : "userId",
+        "type" : "string"
+      }, {
+        "name" : "childName",
+        "type" : "string"
+      }, {
+        "name" : "lastTimestamp",
+        "type" : "long",
+        "optional" : true
+      } ],
+      "metadata" : {
+        "type" : "com.antwish.povi.server.CommentId"
+      }
+    }, {
+      "name" : "getCommentsPaged",
+      "parameters" : [ {
+        "name" : "userId",
+        "type" : "string"
+      }, {
+        "name" : "childName",
+        "type" : "string"
+      }, {
+        "name" : "lastTimestamp",
+        "type" : "long",
+        "optional" : true
+      } ],
+      "metadata" : {
+        "type" : "com.antwish.povi.server.CommentId"
+      }
+    } ],
+    "entity" : {
+      "path" : "/tipComment/{tipCommentId}"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "record",
+  "name": "Event",
+  "namespace": "com.antwish.povi.server",
+  "doc": "SocialPlay event data schema",
+  "fields": [
+    {
+      "name": "eventId",
+      "type": "long",
+      "doc": "unique identifier of event",
+       "optional" : true
+    },
+    {
+      "name": "timestamp",
+      "type": "long",
+      "doc": "timestamp of when the event occurs"
+    },
+    {
+      "name": "userId",
+      "type": "long",
+      "doc": "accountId of the user who generates this event"
+    },          
+    {
+      "name": "eventType",
+      "type": "EventType",
+      "doc": "type of the event"
+    },
+    {
+      "name": "duration",
+      "type": "int",
+      "doc": "duration of the event in minutes",
+       "optional" : true     
+    },
+    {
+      "name": "details",
+      "type": "string",
+      "doc": "details of the event"
+    }
+  ]
+}

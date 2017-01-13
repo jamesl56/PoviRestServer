@@ -1,0 +1,7 @@
+{
+  "type" : "enum",
+  "name" : "ParentingTipAgeGroup",
+  "namespace" : "com.antwish.povi.server",
+  "doc" : "enum of days",
+  "symbols" : [ "PRESCHOOL", "FIVE_TO_TEN_YEARS", "TEEN"]
+}

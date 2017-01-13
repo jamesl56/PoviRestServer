@@ -1,0 +1,8 @@
+{
+  "type": "record",
+  "name": "Login",
+  "namespace": "com.antwish.povi.server",
+  "doc": "Logs in into Povi server using different methods",
+  "fields": [    
+  ]
+}
